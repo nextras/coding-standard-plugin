@@ -1,0 +1,4 @@
+use: nextras/preset
+
+paths:
+	- src

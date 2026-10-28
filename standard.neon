@@ -1,0 +1,41 @@
+# Nextras Coding Standard
+# Based on Nette, with the layout and syntax used by Nextras libraries.
+use: nette
+
+types:
+	nullable: int|null
+	nullPosition: last
+
+classes:
+	visibility:
+		interfaceMethod: required
+	emptyParentheses:
+		instantiation: required
+
+braces:
+	bracelessBody: keep
+	emptyBody:
+		class: expanded
+		function: expanded
+	position:
+		multilineSignature: nextLine
+
+blankLines:
+	afterNamespace: 2
+	betweenImportKinds: 0
+
+imports:
+	grouping:
+		function: separated
+
+spacing:
+	declare: keep
+
+file:
+	strictTypes:
+		declaration: required
+		position: sameLine
+
+multiline:
+	edges:
+		condition: apart
